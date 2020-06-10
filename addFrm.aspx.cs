@@ -11,17 +11,18 @@ public partial class addFrm : System.Web.UI.Page
   
     protected void Page_Load(object sender, EventArgs e)
     {
-
+        Label1.Text =  Session["name"].ToString() ;
+        //Label1.Text = "hello";
     }
 
     //protected void DeleteButton_Click(object sender, EventArgs e)
     //{
     //    ScriptManager.RegisterStartupScript(this, this.GetType(), "alert", "alert('one record is deleted!! .');window.location ='addFrm.aspx';", true);
     //}
+   
+   //la Text = Session["f_name"].ToString();
 
-  
-
-
+        
 
     protected void InsertButton_Click(object sender, EventArgs e)
     {

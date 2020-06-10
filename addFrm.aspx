@@ -200,8 +200,8 @@
         <p>
             &nbsp;</p>
         <p>
-            <asp:Label ID="Label1" runat="server" Text="adil"></asp:Label>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Hello,
+            <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
         </p>
     <p>
         &nbsp;</p>
